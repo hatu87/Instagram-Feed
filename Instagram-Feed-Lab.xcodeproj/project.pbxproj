@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		190820261BF371FD002B6661 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190820251BF371FD002B6661 /* PhotosViewController.swift */; };
 		413FB2D61BF36C0300130F05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413FB2D51BF36C0300130F05 /* AppDelegate.swift */; };
-		413FB2D81BF36C0300130F05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413FB2D71BF36C0300130F05 /* ViewController.swift */; };
 		413FB2DB1BF36C0300130F05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 413FB2D91BF36C0300130F05 /* Main.storyboard */; };
 		413FB2DD1BF36C0300130F05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 413FB2DC1BF36C0300130F05 /* Assets.xcassets */; };
 		413FB2E01BF36C0300130F05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 413FB2DE1BF36C0300130F05 /* LaunchScreen.storyboard */; };
@@ -17,9 +17,9 @@
 
 /* Begin PBXFileReference section */
 		0C4C1E98993304810B4EC83E /* Pods-Instagram-Feed-Lab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram-Feed-Lab.release.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram-Feed-Lab/Pods-Instagram-Feed-Lab.release.xcconfig"; sourceTree = "<group>"; };
+		190820251BF371FD002B6661 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		413FB2D21BF36C0300130F05 /* Instagram-Feed-Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instagram-Feed-Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		413FB2D51BF36C0300130F05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		413FB2D71BF36C0300130F05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		413FB2DA1BF36C0300130F05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		413FB2DC1BF36C0300130F05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		413FB2DF1BF36C0300130F05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -62,11 +62,11 @@
 			isa = PBXGroup;
 			children = (
 				413FB2D51BF36C0300130F05 /* AppDelegate.swift */,
-				413FB2D71BF36C0300130F05 /* ViewController.swift */,
 				413FB2D91BF36C0300130F05 /* Main.storyboard */,
 				413FB2DC1BF36C0300130F05 /* Assets.xcassets */,
 				413FB2DE1BF36C0300130F05 /* LaunchScreen.storyboard */,
 				413FB2E11BF36C0300130F05 /* Info.plist */,
+				190820251BF371FD002B6661 /* PhotosViewController.swift */,
 			);
 			path = "Instagram-Feed-Lab";
 			sourceTree = "<group>";
@@ -210,8 +210,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				413FB2D81BF36C0300130F05 /* ViewController.swift in Sources */,
 				413FB2D61BF36C0300130F05 /* AppDelegate.swift in Sources */,
+				190820261BF371FD002B6661 /* PhotosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
